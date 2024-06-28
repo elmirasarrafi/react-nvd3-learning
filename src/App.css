@@ -1,0 +1,29 @@
+/* App.css */
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chart-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.chart-container {
+  width: 45%;
+  height: 400px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chart-container.geo {
+  width: 90%;
+  height: 600px;
+}
